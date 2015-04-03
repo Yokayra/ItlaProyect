@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="themes/customer-barra-payan.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.5.min.css" />
+<script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.js" ></script>
+<title>Surcusales</title>
+<style>
+  html, body, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+  }
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+<script type="text/javascript" src="js/sucursalesmapa.js"></script>
+</head>
+
+<body>
+<!-- La siguiente pagina -->
+<div data-role="page" id="siguiente" data-theme="a">
+<!-- cabecera -->
+<div data-role="header">
+<h1>Sucursales</h1>
+<a href="entrar.html" rel="external" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+<a href="" class="ui-btn ui-icon-back ui-btn-icon-right" data-rel="back">back</a>
+</div>
+
+<!-- contenido -->
+<div data-role="content" >
+
+<div data-role="collapsible">
+<h4>Evaristo Morales</h4>
+<pre>
+Telefono:(809) 562- 6654
+Direccion:
+Rafael Augusto Sánchez casi esq. Winston Churchil #8, Evaristo Morales, Santo Domingo
+Horario:
+Lunes - Domingo   7:00 a.m. - 2:00 a.m.
+</pre>
+</div>
+
+<div data-role="collapsible">
+<h4>Naco</h4>
+<pre>
+Telefono:(809) 565-1500
+Direccion:
+Tiradentes #16, casi esq. Rafael Augusto Sánchez, Naco, Santo Domingo
+Horario:
+Lunes - Jueves, Domingo  7:00 a.m. - 1:00 a.m.
+Viernes - Domingo 	7:00 a.m. - 2:00 a.m.
+</pre>
+</div>
+
+<div data-role="collapsible">
+<h4>Rómulo Betancourt</h4>
+<pre>
+Telefono:(809)334- 1963
+Direccion:
+Rómulo Betancourt esq. Núñez de Cáceres #421, Bella Vista, Santo Domingo
+Horario:
+Lunes - Domingo 	7:00 a.m. - 7:00 a.m.
+</pre>
+</div>
+
+<div data-role="collapsible">
+<h4>30 de Marzo</h4>
+<pre>
+Telefono:(809) 689-6654
+Direccion:
+30 de Marzo No. 140 San Juan Bosco, Don Bosco, Don Bosco, Santo Domingo
+Horario:
+Lunes - Domingo	  7:00 a.m. - 7:00 a.m.
+</pre>
+</div>
+
+
+<div data-role="collapsible">
+<h4>Winston Churchill</h4>
+<pre>
+Telefono: (809)732- 1049
+Direccion:
+Avenida Winston Churchill, esquina Poncio Sabater, en la Plaza Paraíso, Santo Domingo
+Horario:
+Todos los días de 00:00 a 23:00
+</pre>
+</div>
+
+</div>
+
+<!--Mi pie de pagina -->
+<div data-role="footer" data-theme="a">
+<h1>Mapa</h1>
+<br/>
+<div id="map-canvas" style="width:800px; height:400px; display:block;margin:0 auto 0 auto; border-style: solid; border-width: 1px;" ></div>
+<br/>
+</div>
+
+</div>
+</body>
+</html>

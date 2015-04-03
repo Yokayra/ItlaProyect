@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<link rel="stylesheet" type="text/css" href="themes/customer-barra-payan.min.css"/>
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.5.min.css" />
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.js" ></script>
+<title>Barra Payan</title>
+</head>
+
+<body>
+<!-- La siguiente pagina -->
+<div data-role="page" id="siguiente" data-theme="c">
+
+<!-- cabecera -->
+<div data-role="header">
+<h1>Realiza un pedido</h1>
+<a href="entrar.html" rel="external" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+<a href="" class="ui-btn ui-icon-back ui-btn-icon-right" data-rel="back">back</a>
+</div>
+
+<!-- contenido -->
+<div data-role="content">
+
+<form id="formulario" method="post" action="">
+<h2>Seleccione una sucursal</h2>
+<select id="myselect" name="src">
+	<option value="EM">Evaristo Morales</option>
+    <option value="Naco">Naco</option>
+    <option value="RB">Rómulo Betancourt</option>
+    <option value="30M">30 de Marzo</option>
+	<option value="I">Independencia</option>
+	<option value="AL">Abraham Lincoln </option>
+</select>
+
+</form>
+
+<form>
+
+<div data-role="collapsible">
+
+<h3 style="text-align:center" >Elija sus sandwiches</h3>
+
+<ul data-role="listview" data-inset="true" style="text-align:center">
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Payan_especial 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >160.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Pierna_y_Queso 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Pollo_y_Queso 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Jamón_danés
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Completo_danés
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Pierna
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Danés
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >115.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Pierna_y_pollo
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Pollo
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;"> Jamón_y_pierna
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >145.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Completo
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >125.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Derretido_Danes
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >95.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Salami_y_queso
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >115.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Salami_y_Huevo
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >90.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Salami
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >90.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Chesse_burguer 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >115.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Jamón_y_queso 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >100.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Juancito_el_Caminador_(Johnny_Walker)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >100.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Jamón_y_Huevo
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >100.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Jamón 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >90.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Derretido 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >75.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Hamburguer 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >80.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Huevo 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >65.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Tostada 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >25.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Tostada_con_ajo 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >30.00</a>
+</li>
+</ul>
+
+</div>
+
+<!--contenido para las bebidas-->
+
+<div data-role="collapsible">
+
+<h3 style="text-align:center" >Elija su bedida</h3>
+
+<ul data-role="listview" data-inset="true" style="text-align:center">
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Lechosa(PAPAYA) 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">China(ORANGE)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >70.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">TORONJA(GRAPEFRUIT)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >70.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Piña(PINEAPPLE)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Zapote(SAPODILLA)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >55.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Granadillo
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >65.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Chinola(PASSION FRUIT)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >70.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Melón
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Cereza(CHERRY)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >55.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Fresa(STRAWBERRY)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >75.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Limón_agrio(LEMON)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >60.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Guineo(BANANA)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">CIRUELA(PRUNE)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >70.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">MANGO
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">LULO
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >60.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">TAMARINDO(TAMARIND) 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">GUANÁBANA(SOURSOP) 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >65.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">JAGUA
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >40.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">NÍSPERO(LOQUAT)
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >60.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">Guayaba 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >45.00</a>
+</li>
+
+<li data-role="controlgroup" data-type="horizontal">
+<a href="" class="ui-btn ui-icon-heart ui-btn-icon-left" style="width:675px;">LECHE_BATIDA(MILK SHAKE) 
+<span class="ui-li-count">0</span>
+</a>
+<a href="" data-role="button" data-icon="delete" data-iconpos="notext">delete</a>
+<a href="" data-role="button"  class="ui-btn ui-icon-arrow-r ui-btn-icon-left" >40.00</a>
+</li>
+</ul>
+</div>
+
+</form>
+<h2 style="text-align:center;"><font color="yellow" id="total">Total de sus pedidos:</font></h2>
+<input type="submit" value="Enviar" id="enviar" />
+</div>
+
+<!--Mi pie de pagina -->
+<div data-role="footer">
+<h1>By: Yokayra De la Cruz</h1>
+</div>
+
+<script type="text/javascript" src="js/pedidos.js"></script>
+</div>
+</body>
+</html>
